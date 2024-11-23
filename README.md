@@ -7,7 +7,7 @@
 
 ## What's new in PHP 8.4?
 
-Here are some examples of what's new in PHP 8.4:
+Here are some examples of what's new in PHP 8.4 🐘:
 
 | Title | Link |
 |:---:|:---:|

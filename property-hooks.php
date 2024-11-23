@@ -1,6 +1,12 @@
 <?php
 
-// Property Hooks - PHP 8.4
+/**
+ * Property Hooks - PHP 8.4
+ * 
+ * @link
+ * You can also read the detailed article on my blog:
+ * https://www.damian-freelance.com/blog/php-8-4-property-hooks
+ */
 
 /*
 |--------------------------------------------------------------------------

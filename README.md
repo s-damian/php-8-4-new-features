@@ -1,0 +1,14 @@
+# New Features in PHP 8.4
+
+> 📝 You can also read the detailed article on my blog:
+[php-8-4-new-features](https://www.damian-freelance.com/blog/php-8-4-new-features)
+
+> :octocat: If you find this tutorial useful, please give me a **Star** on this GitHub repository.
+
+## What's new in PHP 8.4?
+
+Here are some examples of what's new in PHP 8.4:
+
+| Title | Link |
+|:---:|:---:|
+| Property Hooks | [Tutorial Link](https://github.com/s-damian/php-8-4-new-features/blob/main/property-hooks.php) |

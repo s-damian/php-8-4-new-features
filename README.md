@@ -11,4 +11,5 @@ Here are some examples of what's new in PHP 8.4 🐘
 
 | Title | Link |
 |:---:|:---:|
-| Property Hooks | [Tutorial Link](https://github.com/s-damian/php-8-4-new-features/blob/main/property-hooks.php) |
+| Property Hooks | [Example Link](https://github.com/s-damian/php-8-4-new-features/blob/main/property-hooks.php) |
+| New Without Parentheses | [Example Link](https://github.com/s-damian/php-8-4-new-features/blob/main/new-without-parentheses.php) |

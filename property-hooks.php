@@ -16,6 +16,7 @@
 
 interface AddressPhp84Contract
 {
+    //public string $street; // Not allowed: Interfaces may only include hooked properties
     public int $postalCode { set; }
     public string $city { get; set; }
     public string $fullAddress { get; }

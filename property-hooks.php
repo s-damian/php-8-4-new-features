@@ -82,7 +82,7 @@ echo $addressPhp83->getFullAddress();
 
 interface AddressPhp84Contract
 {
-    public int $postalCode { get, set; }
+    public int $postalCode { get; set; }
     public string $fullAddress { get; }
 }
 
@@ -91,7 +91,7 @@ class AddressPhp84 implements AddressPhp84Contract
     public string $street;
 
     public int $postalCode {
-        get => 'POSTAL: ' . $value;
+        get => $this->postalCode;
         set {
             if (mb_strlen($value) !== 5) {
                 throw new \InvalidArgumentException('Must be 5 characters.');

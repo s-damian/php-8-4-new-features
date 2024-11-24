@@ -3,7 +3,7 @@
 /**
  * Deprecated Attribute - PHP 8.4
  * 
- * allowed targets: function, method, class constant.
+ * Allowed targets: function, method, class constant.
  */
 
 class MathPhp

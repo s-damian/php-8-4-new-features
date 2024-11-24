@@ -1,4 +1,4 @@
-# New Features in PHP 8.4
+# New Features in PHP 8.4 🐘
 
 > 📝 You can also read the detailed article on my blog:
 [php-8-4-new-features](https://www.damian-freelance.com/blog/php-8-4-new-features)
@@ -7,7 +7,9 @@
 
 ## What's new in PHP 8.4?
 
-Here are some examples of what's new in PHP 8.4 🐘
+The stable version of PHP 8.4 was officially released on November 21, 2024. Several interesting novelties are to be seen.
+
+Here are some examples of what's new in PHP 8.4:
 
 | Title | Link |
 |:---:|:---:|

@@ -63,19 +63,16 @@ class AddressPhp83 implements AddressPhp83Contract
 
 $addressPhp83 = new AddressPhp83();
 
-echo '<h3>Street:</h3>';
+echo 'Street:';
 $addressPhp83->setStreet('34 Sreet ABC');
-echo $addressPhp83->getStreet() . '<br>';
+echo $addressPhp83->getStreet();
 
-echo '<h3>Postal code:</h3>';
+echo 'Postal code:';
 $addressPhp83->setPostalCode(38000);
-echo $addressPhp83->getPostalCode() . '<br>';
+echo $addressPhp83->getPostalCode();
 
-echo '<h3>Full address:</h3>';
-echo $addressPhp83->getFullAddress() . '<br>';
-
-
-echo '<hr>';
+echo 'Full address:';
+echo $addressPhp83->getFullAddress();
 
 /*
 |--------------------------------------------------------------------------
@@ -109,13 +106,13 @@ class AddressPhp84 implements AddressPhp84Contract
 
 $addressPhp84 = new AddressPhp84();
 
-echo '<h3>Street:</h3>';
+echo 'Street:';
 $addressPhp84->street = '34 Sreet ABC';
-echo $addressPhp84->street . '<br>';
+echo $addressPhp84->street;
 
-echo '<h3>Postal code:</h3>';
+echo 'Postal code:';
 $addressPhp84->postalCode = 38000;
-echo $addressPhp84->postalCode . '<br>';
+echo $addressPhp84->postalCode;
 
-echo '<h3>Full address:</h3>';
-echo $addressPhp84->fullAddress . '<br>';
+echo 'Full address:';
+echo $addressPhp84->fullAddress;

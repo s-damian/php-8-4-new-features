@@ -18,11 +18,11 @@ $arrayD = [111, 222, 'bbb', 444, 555];
 
 $test = array_find($arrayA, fn($value, $key) => mb_strlen($value) === 5);
 var_dump( $test );
-// var_dump result: string(5) "bbbbb"
+// string(5) "bbbbb"
 
 $test = array_find($arrayB, fn($value, $key) => mb_strlen($value) === 5);
 var_dump( $test );
-// var_dump result: string(5) "bbbbb"
+// string(5) "bbbbb"
 
 /*
 |--------------------------------------------------------------------------
@@ -33,7 +33,7 @@ var_dump( $test );
 
 $test = array_find_key($arrayA, fn($value, $key) => $key === 'b');
 var_dump( $test );
-// var_dump result: NULL
+// NULL
 
 $test = array_find_key($arrayB, fn($value, $key) => $key === 'b');
 var_dump( $test ); // string(1) "b"

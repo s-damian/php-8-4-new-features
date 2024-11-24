@@ -54,7 +54,12 @@ var_dump( $test ); // bool(false)
 /*
 |--------------------------------------------------------------------------
 | array_any
-| Takes an array and a callback, and returns true if all of the elements in the array return true when passed to the callback.
+| Takes an array and a callback, and returns true if any of the elements in the array return true when passed to the callback.
 |--------------------------------------------------------------------------
 */
 
+$test = array_any($arrayC, fn($value, $key) => is_numeric($value));
+var_dump( $test ); // bool(true)
+
+$test = array_any($arrayD, fn($value, $key) => is_numeric($value));
+var_dump( $test ); // bool(true)

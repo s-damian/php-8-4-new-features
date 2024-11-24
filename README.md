@@ -9,7 +9,7 @@
 
 The stable version of **PHP 8.4** was officially released on November 21, 2024.
 
-Several interesting novelties are to be seen.
+Several interesting novelties are to be seen 🐘
 
 Here are some examples of what's new in PHP 8.4:
 

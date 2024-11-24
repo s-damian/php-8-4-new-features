@@ -13,3 +13,4 @@ Here are some examples of what's new in PHP 8.4 🐘
 |:---:|:---:|
 | Property Hooks | [Example Link](https://github.com/s-damian/php-8-4-new-features/blob/main/property-hooks.php) |
 | New Without Parentheses | [Example Link](https://github.com/s-damian/php-8-4-new-features/blob/main/new-without-parentheses.php) |
+| Deprecated Attribute | [Example Link](https://github.com/s-damian/php-8-4-new-features/blob/main/deprecated-attribute.php) |

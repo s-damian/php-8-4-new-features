@@ -16,6 +16,7 @@ Here are some examples of what's new in PHP 8.4:
 | Title | Link |
 |:---:|:---:|
 | Property Hooks | [See the example](https://github.com/s-damian/php-8-4-new-features/blob/main/property-hooks.php) |
+| Asymmetric Visibility | [See the example](https://github.com/s-damian/php-8-4-new-features/blob/main/asymmetric-visibility.php) |
 | New Without Parentheses | [See the example](https://github.com/s-damian/php-8-4-new-features/blob/main/new-without-parentheses.php) |
 | Deprecated Attribute | [See the example](https://github.com/s-damian/php-8-4-new-features/blob/main/deprecated-attribute.php) |
 | New Array Functions | [See the example](https://github.com/s-damian/php-8-4-new-features/blob/main/new-array-functions.php) |

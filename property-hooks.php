@@ -119,8 +119,6 @@ class AddressPhp83 implements AddressPhp83Contract
         return $this->postalCode;   
     }
 
-
-
     public function setCity(string $value): void
     {
         if (!is_string($value)) {
@@ -133,8 +131,6 @@ class AddressPhp83 implements AddressPhp83Contract
     {
         return $this->city;   
     }
-
-
 
     public function getFullAddress(): string
     {

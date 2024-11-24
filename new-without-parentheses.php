@@ -27,19 +27,6 @@ class MathPhp
 
 /*
 |--------------------------------------------------------------------------
-| PHP 8.3 (still valid with PHP 8.4):
-|--------------------------------------------------------------------------
-*/
-
-$total = (new MathPhp())->addNumber(12)->calculate();
-echo $total;
-
-// It is also possible to do that:
-$total = (new MathPhp)->addNumber(12)->calculate();
-echo $total;
-
-/*
-|--------------------------------------------------------------------------
 | PHP 8.4:
 |--------------------------------------------------------------------------
 */
@@ -51,3 +38,16 @@ echo $total;
 // But it is not possible to do that:
 //$total = new MathPhp->addNumber(12)->calculate();
 //echo $total;
+
+/*
+|--------------------------------------------------------------------------
+| PHP 8.3 (still valid with PHP 8.4):
+|--------------------------------------------------------------------------
+*/
+
+$total = (new MathPhp())->addNumber(12)->calculate();
+echo $total;
+
+// It is also possible to do that:
+$total = (new MathPhp)->addNumber(12)->calculate();
+echo $total;
